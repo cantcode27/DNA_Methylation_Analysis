@@ -189,7 +189,7 @@ This asymmetry is the most important single result of the DMR analysis. Global h
 
 #### Figure 09 — Mean Methylation Difference vs Q-value
 
-![DMR QValue](01_wgbs_breast_cancer/figures/09_dmr_qvalue_vs_difference.png)
+![DMR QValue](wgbs_breast_cancer/09_dmr_qvalue_vs_difference.png)
 
 **What is shown:** Scatter plot of mean methylation difference (x-axis) against −log₁₀ of the Benjamini–Hochberg adjusted q-value (y-axis) for all detected DMRs — effectively a methylation volcano plot.
 
@@ -199,7 +199,7 @@ This asymmetry is the most important single result of the DMR analysis. Global h
 
 #### Figure 10 — Group 1 vs Group 2 Mean Methylation
 
-![DMR Group Comparison](01_wgbs_breast_cancer/figures/10_dmr_group1_vs_group2_methylation.png)
+![DMR Group Comparison](wgbs_breast_cancer/10_dmr_group1_vs_group2_methylation.png)
 
 **What is shown:** Per-DMR scatter plot with mean methylation of normal breast tissue (Group 1) on the x-axis and mean methylation of invasive ductal carcinoma (Group 2) on the y-axis. The diagonal represents no change between groups.
 
@@ -209,7 +209,7 @@ This asymmetry is the most important single result of the DMR analysis. Global h
 
 #### Figure 11 — DMR Length in Nucleotides vs CpG Count
 
-![DMR Length nt vs CpG](01_wgbs_breast_cancer/figures/11_dmr_length_nt_vs_cpg.png)
+![DMR Length nt vs CpG](wgbs_breast_cancer/11_dmr_length_nt_vs_cpg.png)
 
 **What is shown:** Bivariate scatter of each DMR's nucleotide length against its CpG count.
 
