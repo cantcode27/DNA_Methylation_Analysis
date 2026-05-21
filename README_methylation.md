@@ -233,7 +233,7 @@ This asymmetry is the most important single result of the DMR analysis. Global h
 
 **Platform:** Google Colab  
 **Library:** Biolearn (Python)  
-**Notebook:** `02_epic_array_aging_clocks/aging_clock_benchmarking.ipynb`
+**Notebook:** `aging_clock/aging_clock_benchmarking.ipynb`
 
 ### What Are Epigenetic Clocks?
 
@@ -273,7 +273,7 @@ Different clocks were designed with different objectives. First-generation clock
 
 #### Figure 01 — Clock Correlation Matrix, GSE120307
 
-![Correlation Matrix GSE120307](02_epic_array_aging_clocks/figures/01_correlation_matrix_GSE120307.png)
+![Correlation Matrix GSE120307](aging_clock/01_correlation_matrix_GSE120307.png)
 
 **What is shown:** Pearson correlation matrix of predicted values from all 8 clocks across 34 samples (GSE120307). Each cell shows how strongly two clocks agree in their sample-to-sample ranking. Warmer colours indicate higher correlation.
 
@@ -283,7 +283,7 @@ Different clocks were designed with different objectives. First-generation clock
 
 #### Figure 02 — Clock Correlation Matrix, GSE41169
 
-![Correlation Matrix GSE41169](02_epic_array_aging_clocks/figures/02_correlation_matrix_GSE41169.png)
+![Correlation Matrix GSE41169](aging_clock/02_correlation_matrix_GSE41169.png)
 
 **What is shown:** The same correlation matrix for 95 samples (GSE41169).
 
@@ -293,7 +293,7 @@ Different clocks were designed with different objectives. First-generation clock
 
 #### Figure 03 — Age Deviation Heatmap, GSE120307
 
-![Age Deviation Heatmap GSE120307](02_epic_array_aging_clocks/figures/03_age_deviation_heatmap_GSE120307.png)
+![Age Deviation Heatmap GSE120307](aging_clock/03_age_deviation_heatmap_GSE120307.png)
 
 **What is shown:** Heatmap where each row is a clock, each column is a sample, and colour represents epigenetic age deviation (predicted age minus chronological age). Red = clock predicts older than actual age. Blue = clock predicts younger.
 
@@ -305,7 +305,7 @@ Zhang_10 shows the most extreme deviations from the others, reflecting the insta
 
 #### Figure 04 — Age Deviation Heatmap, GSE41169
 
-![Age Deviation Heatmap GSE41169](02_epic_array_aging_clocks/figures/04_age_deviation_heatmap_GSE41169.png)
+![Age Deviation Heatmap GSE41169](aging_clock/04_age_deviation_heatmap_GSE41169.png)
 
 **What is shown:** Same age deviation heatmap for GSE41169 (95 samples).
 
@@ -315,7 +315,7 @@ Zhang_10 shows the most extreme deviations from the others, reflecting the insta
 
 #### Figure 05 — Predicted vs Chronological Age, GSE120307
 
-![Predicted vs Chronological Age GSE120307](02_epic_array_aging_clocks/figures/05_predicted_vs_chronological_age_GSE120307.png)
+![Predicted vs Chronological Age GSE120307](aging_clock/05_predicted_vs_chronological_age_GSE120307.png)
 
 **What is shown:** One scatter plot per clock, predicted age on the y-axis, chronological age on the x-axis. The red dashed diagonal is perfect prediction.
 
@@ -329,7 +329,7 @@ DunedinPACE forms a horizontal band — its predictions are not supposed to trac
 
 #### Figure 06 — Predicted vs Chronological Age, GSE41169
 
-![Predicted vs Chronological Age GSE41169](02_epic_array_aging_clocks/figures/06_predicted_vs_chronological_age_GSE41169.png)
+![Predicted vs Chronological Age GSE41169](aging_clock/06_predicted_vs_chronological_age_GSE41169.png)
 
 **What is shown:** The same per-clock scatter plots for GSE41169 (95 samples).
 
@@ -341,7 +341,7 @@ Second-generation clocks show systematic upward offsets that increase at older a
 
 #### Figure 07 — Mean Absolute Error Comparison
 
-![MAE Comparison](02_epic_array_aging_clocks/figures/07_mean_absolute_error_comparison.png)
+![MAE Comparison](aging_clock/07_mean_absolute_error_comparison.png)
 
 **What is shown:** Bar chart of Mean Absolute Error (MAE) in years for each clock across both datasets. Lower MAE = more accurate chronological age prediction.
 
@@ -355,7 +355,7 @@ Zhang_10 achieves by far the highest MAE — approximately 38 years on GSE120307
 
 #### Figure 08 — Predicted Age Distributions
 
-![Predicted Age Distributions](02_epic_array_aging_clocks/figures/08_predicted_age_distributions.png)
+![Predicted Age Distributions](aging_clock/08_predicted_age_distributions.png)
 
 **What is shown:** Box plots of predicted age distributions per clock for both datasets.
 
